@@ -13,3 +13,7 @@ print(23 // 7)
 print(23 % 7)
 print(2 + 2)
 print(((5 - 1) * ((7 + 1) / (3 - 1))))
+
+# SyntaxError: invalid syntax
+# 5 + 
+# 42 + 5 + * 2
