@@ -17,3 +17,9 @@ print(((5 - 1) * ((7 + 1) / (3 - 1))))
 # SyntaxError: invalid syntax
 # 5 + 
 # 42 + 5 + * 2
+
+# SyntaxError: unterminated string literal (detected at line 1)
+# This error means you probably forgot the final single-quote character at the end of the string.
+
+# String Concatenation + Replication
+print('Alice' + 'Bob')
