@@ -23,3 +23,8 @@ print(((5 - 1) * ((7 + 1) / (3 - 1))))
 
 # String Concatenation + Replication
 print('Alice' + 'Bob')
+
+#Traceback (most recent call last):
+#  File "<python-input-0>", line 1, in <module>
+#    'Alice' + 42
+#TypeError: can only concatenate str (not "int") to str
