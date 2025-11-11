@@ -34,3 +34,10 @@ spam = "Hello"
 print(spam)
 spam = "Goodbye"
 print(spam)
+
+# Variable Names
+# It can’t have spaces.
+# It can use only letters, numbers, and the underscore (_) character.
+# It can’t begin with a number.
+# It can’t be a Python keyword, such as if, for, return, or other keywords you’ll learn in this book.
+# Table 1-3 shows examples of legal variable names.
