@@ -28,3 +28,9 @@ print('Alice' + 'Bob')
 #  File "<python-input-0>", line 1, in <module>
 #    'Alice' + 42
 #TypeError: can only concatenate str (not "int") to str
+
+# Assignment Statements
+spam = "Hello"
+print(spam)
+spam = "Goodbye"
+print(spam)
