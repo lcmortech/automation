@@ -55,6 +55,10 @@ print('What is your age?')  # Ask for their age.
 my_age = input('>')
 print('You will be ' + str(int(my_age) + 1) + ' in a year.')
 
+#The len() function
+print('The length of my name is:')
+print(len(my_name))
+
 # The str(), int(), and float() Functions
 str(29)
 print('I am' + str(29) + ' years old.')
