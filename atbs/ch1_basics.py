@@ -69,3 +69,7 @@ print('I am' + str(29) + ' years old.')
 
 print(spam = input())
 print(spam)
+
+print(spam * 10/5)
+
+
