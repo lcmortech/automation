@@ -66,3 +66,6 @@ print(len(my_name))
 # The str(), int(), and float() Functions
 str(29)
 print('I am' + str(29) + ' years old.')
+
+print(spam = input())
+print(spam)
