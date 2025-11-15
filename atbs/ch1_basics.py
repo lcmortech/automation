@@ -72,6 +72,7 @@ print(spam)
 
 print(spam * 10/5)
 
-
+int('99.99')
+int('twelve')
 
 
