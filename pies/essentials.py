@@ -27,6 +27,9 @@ global
 not 
 with 
 async 
+elif / if
+or 
+yield
 
 
 # LIST METHODS
