@@ -45,5 +45,13 @@ list.reverse()
 
 
 # FILE METHODS
-
+file = open(filename, filemode)
+file.readable()
+file.writeable()
+file.read(size)
+file.readlines(size)
+file.seek(offset)
+file.tell()
+file.write(string)
+file.close()
 # STRING METHODS
