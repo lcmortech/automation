@@ -1,5 +1,6 @@
 import tkinter as tk
 import pandas as pd
+from bs4 import BeautifulSoup
 
 root = tk.Tk()
 
