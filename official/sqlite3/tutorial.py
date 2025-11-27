@@ -8,4 +8,5 @@ cur.execute("CREATE TABLE movie(title, year score)")
 
 cur.execute("SELECT title FROM movies")
 
+# queries from built-in sqlite table
 result = cur.execute("SELECT name FROM sqlite_master")
