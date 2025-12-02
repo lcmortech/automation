@@ -10,7 +10,7 @@ def add_to_calculation(sym):
     global calculation
     calculation += str(sym)
     text_result.delete(1.0, "end")
-    text_result.insert(1,0, calculation)
+    text_result.insert(1.0, calculation)
 
 def eval_calculation(calc):
     pass
