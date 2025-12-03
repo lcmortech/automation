@@ -13,7 +13,13 @@ def add_to_calculation(sym):
     text_result.insert(1.0, calculation)
 
 def eval_calculation(calc):
-    pass
+    global calculation
+    try:
+        #result = str(eval(calculation))
+        calculation = ""
+        text_result.delete(1.0, "end")
+        text_result.insert(1.0, calculation)
+    except:
 
 def clear_field():
     pass
