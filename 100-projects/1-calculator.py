@@ -20,7 +20,7 @@ def eval_calculation(calc):
         text_result.delete(1.0, "end")
         text_result.insert(1.0, calculation)
     except:
-
+        pass
 def clear_field():
     pass
 
