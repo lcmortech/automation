@@ -20,9 +20,13 @@ def eval_calculation(calc):
         text_result.delete(1.0, "end")
         text_result.insert(1.0, calculation)
     except:
-        pass
+        clear_field(
+            text_result.delete(1.0, "Error")
+        )
 def clear_field():
-    pass
+    global calculation
+    calculation = ""
+    text_result.delete(1.0, "end")
 
 # TKINTER SETUP
 window = tk.Tk() #entrypoint
