@@ -60,4 +60,6 @@ btn_0= tk.Button(window, text="+", command=lambda: add_to_calculation(1))
 btn_0.grid(row=2, column=1)
 btn_ac = tk.Button(window, text="-", command=lambda: add_to_calculation(1)) 
 btn_ac.grid(row=2, column=1)
+btn_ac = tk.Button(window, text="clear", command=lambda: add_to_calculation(1)) 
+btn_ac.grid(row=2, column=1)
 window.mainloop() #endpoint
