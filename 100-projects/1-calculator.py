@@ -67,5 +67,5 @@ btn_multi.grid(row=2, column=1)
 btn_divide = tk.Button(window, text="/", command=lambda: add_to_calculation(1)) 
 btn_divide.grid(row=2, column=1)
 btn_clear = tk.Button(window, text="clear", command=lambda: add_to_calculation(1)) 
-btn_clear.grid(row=2, column=1)
+btn_clear.grid(row=5, column=3)
 window.mainloop() #endpoint
