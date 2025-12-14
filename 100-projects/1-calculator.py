@@ -71,5 +71,5 @@ btn_open.grid(row=5, column=3)
 btn_close = tk.Button(window, text=")", command=lambda: add_to_calculation(1)) 
 btn_close.grid(row=5, column=3)
 btn_equals = tk.Button(window, text="=", command=lambda: add_to_calculation(1)) 
-btn_equals.grid(row=5, column=3)
+btn_equals.grid(row=6, column=1, columnspan=2)
 window.mainloop() #endpoint
