@@ -58,6 +58,8 @@ btn_9 = tk.Button(window, text="9", command=lambda: add_to_calculation(9))
 btn_9.grid(row=4, column=3)
 btn_0= tk.Button(window, text="0", command=lambda: add_to_calculation(0)) 
 btn_0.grid(row=5, column=1)
+
+# non-number buttons
 btn_plus = tk.Button(window, text="+", command=lambda: add_to_calculation("+")) 
 btn_plus.grid(row=2, column=1)
 btn_minus = tk.Button(window, text="-", command=lambda: add_to_calculation("-")) 
@@ -70,8 +72,9 @@ btn_open = tk.Button(window, text="(", command=lambda: add_to_calculation("("))
 btn_open.grid(row=5, column=3)
 btn_close = tk.Button(window, text=")", command=lambda: add_to_calculation(")")) 
 btn_close.grid(row=5, column=3)
-btn_clear = tk.Button(window, text=")", command=lambda: add_to_calculation("clear")) 
+btn_clear = tk.Button(window, text=")", command=lambda: add_to_calculation(")")) 
 btn_clear.grid(row=5, column=3)
 btn_equals = tk.Button(window, text="=", command=lambda: add_to_calculation("=")) 
-btn_equals.grid(row=6, column=1)
+btn_equals.grid(row=6, column=1
+                )
 window.mainloop() #endpoint
