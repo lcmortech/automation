@@ -41,6 +41,7 @@ text_result = tk.Text(window, height=2, width=16, font=("Arial", 24))
 text_result.grid(columnspan=5)
 
 #use lambda or else it immediately calls function
+# buttons 1 - 9
 btn_1 = tk.Button(window, text="1", command=lambda: add_to_calculation(1)) 
 btn_1.grid(row=2, column=1)
 btn_2 = tk.Button(window, text="2", command=lambda: add_to_calculation(2)) 
