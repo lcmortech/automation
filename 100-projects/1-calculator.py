@@ -6,6 +6,8 @@ import tkinter as tk
 calculation = ""
 
 # FUNCTIONS
+
+# adds numbers
 def add_to_calculation(sym):
     global calculation
     calculation += str(sym)
@@ -23,6 +25,7 @@ def eval_calculation(calc):
         clear_field(
             text_result.delete(1.0, "Error")
         )
+# clears screen
 def clear_field():
     global calculation
     calculation = ""
