@@ -29,7 +29,7 @@ def eval_calculation(calc):
 def clear_field():
     global calculation
     calculation = ""
-    text_result.delete(1.0, "end")
+    text_result.delete(1.0, "end") # need clarification
 
 # TKINTER SETUP
 window = tk.Tk() #entrypoint
@@ -62,6 +62,8 @@ btn_9 = tk.Button(window, text="9", command=lambda: add_to_calculation(9))
 btn_9.grid(row=4, column=3)
 btn_0= tk.Button(window, text="0", command=lambda: add_to_calculation(0)) 
 btn_0.grid(row=5, column=1)
+
+# more explanation on lambda use here
 
 # non-number layout
 btn_plus = tk.Button(window, text="+", command=lambda: add_to_calculation("+")) 
