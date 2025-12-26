@@ -8,5 +8,7 @@ import tkinter as tk
 #2D list, each list is a row
 button_values = [
     ["AC", "+/-", "%", "//"],
-    
+    ["7", "8", "9", "x"],
+    ["1", "2", "3", "+"],
+    ["0", ".", "^", "="]
 ]
