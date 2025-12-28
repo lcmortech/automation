@@ -15,3 +15,5 @@ button_values = [
 
 right_symbols = ["//", "x", "-", "+", "="]
 top_symbols = ["AC", "+/-", "%"]
+
+# calculator colors
