@@ -17,3 +17,7 @@ right_symbols = ["//", "x", "-", "+", "="]
 top_symbols = ["AC", "+/-", "%"]
 
 # calculator colors
+# light_gray
+# black
+# orange
+# white
