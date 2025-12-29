@@ -16,6 +16,8 @@ button_values = [
 right_symbols = ["//", "x", "-", "+", "="]
 top_symbols = ["AC", "+/-", "%"]
 
+row_count = len(button_values)
+
 # calculator colors
 color_light_gray = "#d4d4d2"
 color_black = "#1c1c1c"
