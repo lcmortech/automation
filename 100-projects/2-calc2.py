@@ -6,6 +6,7 @@
 import tkinter as tk
 
 #2D list, each list is a row
+# reminder: replace placeholders w/ proper symbols
 button_values = [
     ["AC", "+/-", "%", "//"],
     ["7", "8", "9", "x"],
@@ -17,10 +18,13 @@ right_symbols = ["//", "x", "-", "+", "="]
 top_symbols = ["AC", "+/-", "%"]
 
 row_count = len(button_values) #5
-column_count = len(button_values[0])
+column_count = len(button_values[0]) #4
 
 # calculator colors
 color_light_gray = "#d4d4d2"
 color_black = "#1c1c1c"
 color_orange = "#ff9500"
 color_white = "white"
+
+# window setup
+window = tkinter.Tk() #create the window
