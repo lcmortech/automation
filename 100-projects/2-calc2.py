@@ -24,7 +24,7 @@ column_count = len(button_values[0]) #4
 color_light_gray = "#d4d4d2"
 color_black = "#1c1c1c"
 color_orange = "#ff9500"
-color_white = "white"
+color_white = "ffffff"
 
 # window setup
 window = tkinter.Tk() #create the window
