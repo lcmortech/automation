@@ -28,3 +28,4 @@ color_white = "ffffff"
 
 # window setup
 window = tkinter.Tk() #create the window
+window.title("Calculator")
