@@ -29,6 +29,8 @@ color_white = "ffffff"
 # window setup
 window = tkinter.Tk() #create the window
 window.title("Calculator")
+window.resizeable(False, False)
+
 
 #new years eve break
 #no code
