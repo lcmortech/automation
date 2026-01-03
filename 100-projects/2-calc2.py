@@ -30,7 +30,7 @@ color_white = "ffffff"
 window = tkinter.Tk() #create the window
 window.title("Calculator")
 window.resizeable(False, False)
-
+window.mainloop()
 
 #new years eve break
 #no code
