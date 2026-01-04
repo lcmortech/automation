@@ -29,7 +29,7 @@ color_white = "ffffff"
 # window setup
 window = tkinter.Tk() #create the window
 window.title("Calculator")
-window.resizeable(False, False)
+window.resizeable(False, False) # cannot resize horizontally,or vertically
 window.mainloop()
 
 #new years eve break
