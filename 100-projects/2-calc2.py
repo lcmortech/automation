@@ -27,9 +27,12 @@ color_orange = "#ff9500"
 color_white = "ffffff"
 
 # window setup
-window = tkinter.Tk() #create the window
+window = tk.Tk() #create the window
 window.title("Calculator")
 window.resizeable(False, False) # cannot resize horizontally,or vertically
+
+frame = tk.Frame(window)
+
 window.mainloop() # starts program
 
 #new years eve break
