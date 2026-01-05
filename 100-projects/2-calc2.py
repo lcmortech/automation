@@ -32,6 +32,7 @@ window.title("Calculator")
 window.resizeable(False, False) # cannot resize horizontally,or vertically
 
 frame = tk.Frame(window)
+label = tk.Label()
 
 window.mainloop() # starts program
 
