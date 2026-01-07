@@ -34,6 +34,7 @@ window.resizable(False, False) # cannot resize horizontally,or vertically
 frame = tk.Frame(window)
 label = tk.Label(frame, text = "0", font=("Arial", 45), background=color_black, foreground=color_white)
 
+label.grid(0, 0)
 window.mainloop() # starts program
 
 #new years eve break
