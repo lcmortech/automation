@@ -37,6 +37,10 @@ label = tk.Label(frame, text = "0", font=("Arial", 45), background=color_black, 
 label.grid(row=0, column=0)
 window.mainloop() # starts program
 
+for row in range(row_count):
+    for column in range(column_count):
+        value = button_values[row][column]
+
 #new years eve break
 #no code
 #new years day
