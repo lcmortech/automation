@@ -40,6 +40,7 @@ window.mainloop() # starts program
 for row in range(row_count):
     for column in range(column_count):
         value = button_values[row][column]
+        button = tk.Button()
 
 #new years eve break
 #no code
