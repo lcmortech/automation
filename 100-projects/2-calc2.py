@@ -41,7 +41,8 @@ window.mainloop() # starts program
 for row in range(row_count):
     for column in range(column_count):
         value = button_values[row][column]
-        button = tk.Button()
+        button = tk.Button(frame, text=value, font=("Arial", 30),
+                           width=column_count-1, height=1, height=1)
 
 #new years eve break
 #no code
