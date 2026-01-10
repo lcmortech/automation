@@ -42,7 +42,11 @@ for row in range(row_count):
     for column in range(column_count):
         value = button_values[row][column]
         button = tk.Button(frame, text=value, font=("Arial", 30),
-                           width=column_count-1, height=1, height=1)
+                           width=column_count-1, height=1, height=1,
+                           command=lambda value=value: button_clicked(value))
+        
+def button_clicked(value):
+    pass
 
 #new years eve break
 #no code
