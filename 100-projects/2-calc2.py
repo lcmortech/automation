@@ -45,6 +45,8 @@ for row in range(row_count):
                            width=column_count-1, height=1,
                            command=lambda value=value: button_clicked(value))
         
+frame.pack()
+        
 def button_clicked(value):
     pass
 
