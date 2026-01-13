@@ -34,7 +34,7 @@ window.resizable(False, False) # cannot resize horizontally,or vertically
 frame = tk.Frame(window)
 label = tk.Label(frame, text = "0", font=("Arial", 45), background=color_black, foreground=color_white)
 
-label.grid(row=0, column=0, columnspan=column_count)
+label.grid(row=0, column=0, columnspan=column_count, sticky="we")
 window.mainloop() # starts program
 
 # prints each row of buttons
