@@ -32,7 +32,7 @@ window.title("Calculator")
 window.resizable(False, False) # cannot resize horizontally,or vertically
 
 frame = tk.Frame(window)
-label = tk.Label(frame, text = "0", font=("Arial", 45), background=color_black, foreground=color_white)
+label = tk.Label(frame, text = "0", font=("Arial", 45), background=color_black, foreground=color_white, anchor="e")
 
 label.grid(row=0, column=0, columnspan=column_count, sticky="we") #keeps digits to the left side (west)
 window.mainloop() # starts program
