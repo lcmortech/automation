@@ -47,7 +47,8 @@ for row in range(row_count):
         if value in top_symbols:
             button.config(foreground=color_black, background=color_light_gray)
         elif value in right_symbols:
-            button.config(foreground=color_white, background=color_orange)
+            button.config(foreground=color_white, background=color_orange) #
+button col}rs
         else:
             button.config(f)
         button.grid(row=row+1, column=column)
