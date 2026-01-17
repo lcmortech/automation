@@ -59,6 +59,9 @@ frame.pack()
 def button_clicked(value):
     pass
 
+#center the window
+window.update()
+
 #new years eve break
 #no code
 #new years day
