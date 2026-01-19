@@ -62,6 +62,7 @@ def button_clicked(value):
 #center the window
 window.update()
 window_width = window.winfo_width() #updates the window with new size dimensions
+windoe_height = window.winfo_height()
 
 #new years eve break
 #no code
