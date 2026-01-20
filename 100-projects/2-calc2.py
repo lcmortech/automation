@@ -63,7 +63,8 @@ def button_clicked(value):
 window.update()
 window_width = window.winfo_width() #updates the window with new size dimensions
 windoe_height = window.winfo_height()
-screen_width = window.winfo_screenheight()
+screen_width = window.winfo_screenwidth()
+screen_height = window.winfo_screenheight()
 
 #new years eve break
 #no code
