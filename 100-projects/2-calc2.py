@@ -66,8 +66,10 @@ window_height = window.winfo_height()
 screen_width = window.winfo_screenwidth()
 screen_height = window.winfo_screenheight()
 
-window_x = int((screen_width/2) - (window_width/2))
+window_x = int((screen_width/2) - (window_width/2)) #horizontal
 window_y = int((screen_height/2) - (window_height/2))
+
+
 
 #new years eve break
 #no code
