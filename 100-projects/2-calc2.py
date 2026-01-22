@@ -70,7 +70,7 @@ window_x = int((screen_width/2) - (window_width/2)) #horizontal
 window_y = int((screen_height/2) - (window_height/2)) #vertical
 
 #format: (w)x(h)+(x)+(y)
-
+window.geometry()
 
 
 #new years eve break
