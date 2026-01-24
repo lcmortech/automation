@@ -55,9 +55,14 @@ for row in range(row_count):
         button.grid(row=row+1, column=column)
         
 frame.pack()
+
+#A+B, A-B, A*B, A/B
+A = "0"
+operator = None
+B = None
         
 def button_clicked(value):
-    pass
+    
 
 #center the window
 window.update()
@@ -71,9 +76,6 @@ window_y = int((screen_height/2) - (window_height/2)) #vertical
 
 #format: (w)x(h)+(x)+(y)
 window.geometry(f"{window_width}x{window_height}+{window_x}+{window_y}")
-
-#next step add operands
-
 
 
 #new years eve break
