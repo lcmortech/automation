@@ -62,7 +62,7 @@ operator = None
 B = None
         
 def button_clicked(value):
-    
+    global right_symbols, top_symbols, label, A, B, operator
 
 #center the window
 window.update()
