@@ -64,6 +64,13 @@ B = None
 def button_clicked(value):
     global right_symbols, top_symbols, label, A, B, operator
 
+    if value in right_symbols:
+        pass
+    elif value in top_symbols:
+        pass
+    else:
+        pass
+
 #center the window
 window.update()
 window_width = window.winfo_width() #updates the window with new size dimensions
