@@ -68,8 +68,15 @@ def button_clicked(value):
         pass
     elif value in top_symbols:
         pass
-    else:
-        pass
+    else: #digits or .
+        if value == " . ":
+            pass
+        elif value in "1023456789":
+            if label["text"]== "0":
+                label["text"] == value #replace 0
+            else:
+                label["text"] += value #append digit
+
 
 #center the window
 window.update()
