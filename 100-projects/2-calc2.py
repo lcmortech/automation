@@ -70,7 +70,9 @@ def button_clicked(value):
         pass
     else: #digits or .
         if value == " . ":
-            pass
+            # if decimal point not in label then it can be added
+            if value not in label["text"]:
+                label["text"] += value
         elif value in "1023456789":
             if label["text"]== "0":
                 label["text"] == value #replace 0
