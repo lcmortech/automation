@@ -34,7 +34,7 @@ window.title("Calculator")
 window.resizable(False, False) # cannot resize horizontally,or vertically
 
 frame = tk.Frame(window)
-label = tk.Label(frame, text = "0", font=("Arial", 45), background=color_black, foreground=color_white, anchor="e")
+label = tk.Label(frame, text = "0", font=("Arial", 45), background=color_black, foreground=color_white, anchor="e", width=column_count) #prevents digits from breaking layout
 
 label.grid(row=0, column=0, columnspan=column_count, sticky="we") #keeps digits to the left side (west)
 window.mainloop() # starts program
@@ -76,6 +76,8 @@ def button_clicked(value):
                 label["text"] == value #replace 0
             else:
                 label["text"] += value #append digit
+
+            
 
 
 #center the window
