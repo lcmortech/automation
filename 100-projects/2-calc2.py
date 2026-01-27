@@ -60,6 +60,13 @@ frame.pack()
 A = "0"
 operator = None
 B = None
+
+def clear_all():
+    global A, B, operator
+    A = "0"
+    operator = None
+    B = None
+
         
 def button_clicked(value):
     global right_symbols, top_symbols, label, A, B, operator
@@ -68,7 +75,8 @@ def button_clicked(value):
         pass
     elif value in top_symbols:
         if value == "AC":
-            pass
+            clear_all()
+            label["text"] = "0"
         elif value == "+/-":
             pass
         elif value == "%":
