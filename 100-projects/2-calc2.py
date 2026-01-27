@@ -67,7 +67,12 @@ def button_clicked(value):
     if value in right_symbols:
         pass
     elif value in top_symbols:
-        pass
+        if value == "AC":
+            pass
+        elif value == "+/-":
+            pass
+        elif value == "%":
+            pass
     else: #digits or .
         if value == " . ":
             # if decimal point not in label then it can be added
