@@ -67,6 +67,8 @@ def clear_all():
     operator = None
     B = None
 
+def remove_zero_decimal():
+    pass
         
 def button_clicked(value):
     global right_symbols, top_symbols, label, A, B, operator
