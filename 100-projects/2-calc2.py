@@ -83,7 +83,7 @@ def button_clicked(value):
             label["text"] = "0"
         elif value == "+/-":
             result = float(label["text"]) * -1
-            label["text"]
+            label["text"] = remove_zero_decimal(result)
         elif value == "%":
             pass
     else: #digits or .
