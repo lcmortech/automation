@@ -67,6 +67,7 @@ def clear_all():
     operator = None
     B = None
 
+# removes any zero decimal and converts it to a string
 def remove_zero_decimal():
     if num % 1 == 0:
         num = int(num)
