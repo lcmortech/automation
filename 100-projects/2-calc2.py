@@ -79,14 +79,15 @@ def button_clicked(value):
     if value in right_symbols:
         pass
     elif value in top_symbols:
+        # clear
         if value == "AC":
             clear_all()
             label["text"] = "0"
-
+        # add/sub
         elif value == "+/-":
             result = float(label["text"]) * -1
             label["text"] = remove_zero_decimal(result)
-
+        # %
         elif value == "%":
             result = float(label["text"]) / 100
             label["text"] = remove_zero_decimal(result)
