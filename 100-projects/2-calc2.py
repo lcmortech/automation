@@ -77,7 +77,11 @@ def button_clicked(value):
     global right_symbols, top_symbols, label, A, B, operator
 
     if value in right_symbols:
-        pass
+        if value == "=":
+            if A is not None and operator is not None:
+                B = label["text"]
+                num_A = float(A)
+                num_B = float(B)
     elif value in top_symbols:
         # clear
         if value == "AC":
