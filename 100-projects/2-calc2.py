@@ -83,6 +83,10 @@ def button_clicked(value):
                 B = label["text"]
                 num_A = float(A)
                 num_B = float(B)
+
+                if operator == "+":
+                    label["text"] = remove_zero_decimal(num_A + num_B)
+
     elif value in top_symbols:
         # clear
         if value == "AC":
