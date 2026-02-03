@@ -86,6 +86,8 @@ def button_clicked(value):
 
                 if operator == "+":
                     label["text"] = remove_zero_decimal(num_A + num_B)
+                elif operator == "-":
+                    label["text"] = remove_zero_decimal(numA - numB)
 
     elif value in top_symbols:
         # clear
