@@ -6,3 +6,5 @@ import json
 #or
 
 import pytube
+URL = #yt link
+yt = Youtube(URL)
