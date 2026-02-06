@@ -5,6 +5,9 @@ import json
 
 #or
 
-import pytube
-URL = #yt link
-yt = Youtube(URL)
+#import pytube
+#from pytube import YouTube
+#URL  #ytlink
+yt_vid = Youtube(URL)
+yt_vid = yt_vid.streams.get_highest_resolution()
+yt_vid.download()
