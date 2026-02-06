@@ -3,3 +3,4 @@ Tools:
 - yt-dlp
 - MoviePy
 - Use PyPi
+Day 3 - Pytube
