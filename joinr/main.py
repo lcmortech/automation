@@ -6,3 +6,4 @@ yt = YouTube(link)
 
 print(f"Title: {yt.title}")
 yt.streams.get_highest_resolution()
+yt.download()
