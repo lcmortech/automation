@@ -9,3 +9,6 @@ print(f"Title: {yt.title}")
 yt.streams.get_highest_resolution()
 #check link
 yt.download()
+
+# Fixes:
+# urllib error
