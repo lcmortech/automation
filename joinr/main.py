@@ -12,4 +12,4 @@ yt.download()
 
 # Fixes:
 # urllib error
-# check api
+# check api (corey schafer for tips)
