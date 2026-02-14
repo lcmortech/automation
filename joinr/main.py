@@ -1,8 +1,10 @@
 from pytube import YouTube
-from sys import argv
+#from sys import argv
 
-link = argv[1]
-yt = YouTube(link)
+#link = argv[1]
+#yt = YouTube(link)
+
+yt = YouTube('https://www.youtube.com/watch?v=9bZkp7q19f0')
 
 print("Title:" + yt.title)
 #get resolution
