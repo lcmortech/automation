@@ -4,6 +4,7 @@ from pytube import YouTube
 #link = argv[1]
 #yt = YouTube(link)
 
+#from docs
 yt = YouTube('https://www.youtube.com/watch?v=9bZkp7q19f0')
 
 print("Title:" + yt.title)
