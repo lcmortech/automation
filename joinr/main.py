@@ -10,7 +10,7 @@ yt.streams.get_highest_resolution()
 #check link
 yt.download()
 
-# Fixes:
+# Bugs:
 # urllib error
 # check api (corey schafer for tips)
 # check pip
