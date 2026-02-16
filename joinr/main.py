@@ -8,6 +8,8 @@ print("Title:" + yt.title)
 #get resolution
 
 print(yt.description)
+desc = yt.description
+length = yt.length
 yt.streams.get_highest_resolution()
 #check link
 yt.download()
