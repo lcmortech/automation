@@ -17,5 +17,3 @@ yt.download()
 # Bugs:
 # urllib error
 # check api (corey schafer for tips)
-# check pip
-# not sure. might retype code tomorrow
