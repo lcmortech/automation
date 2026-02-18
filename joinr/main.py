@@ -30,4 +30,5 @@ ys = yt.streams.get_highest_resolution()
 ys.download()
 
 #bug
-# fix pytube cli error
+# fix pytube cli error 
+# https://pytubefix.readthedocs.io/en/latest/
