@@ -28,3 +28,6 @@ print(yt.title)
 
 ys = yt.streams.get_highest_resolution()
 ys.download()
+
+#bug
+# fix pytube cli error
