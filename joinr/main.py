@@ -32,3 +32,4 @@ ys.download()
 #bug
 # fix pytube cli error 
 # https://pytubefix.readthedocs.io/en/latest/
+# 2-18 success!
