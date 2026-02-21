@@ -18,7 +18,7 @@
 # # urllib error
 # # check api (corey schafer for tips)
 
-from pytubefix import YouTube
+from pytubefix import YouTube, Playlist
 from pytubefix.cli import on_progress
 
 
@@ -26,6 +26,7 @@ from pytubefix.cli import on_progress
 url = "https://www.youtube.com/watch?v=9bZkp7q19f0"
 
 yt = YouTube(url, on_progress_callback=on_progress)
+p = Playlist('https://www.youtube.com/playlist?list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n')
 print(yt.title)
 
 ys = yt.streams.get_highest_resolution()
