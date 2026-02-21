@@ -27,6 +27,7 @@ url = "https://www.youtube.com/watch?v=9bZkp7q19f0"
 
 yt = YouTube(url, on_progress_callback=on_progress)
 p = Playlist('https://www.youtube.com/playlist?list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n')
+# p = Playlist('https://www.youtube.com/watch?v=41qgdwd3zAg&list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n')
 print(yt.title)
 
 ys = yt.streams.get_highest_resolution()
