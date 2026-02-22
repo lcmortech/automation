@@ -37,4 +37,4 @@ ys.download()
 # fix pytube cli error 
 # https://pytubefix.readthedocs.io/en/latest/
 # 2-18 success!
-# next objective - retrieve playlist (list?)
+# next objective - retrieve playlist (list?) - check!
