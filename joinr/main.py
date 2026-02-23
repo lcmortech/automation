@@ -32,6 +32,7 @@ p = Playlist('https://www.youtube.com/playlist?list=PLS1QulWo1RIaJECMeUT4LFwJ-gh
 # p = Playlist('https://www.youtube.com/watch?v=41qgdwd3zAg&list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n')
 print(yt.title)
 
+# dl vids in playlist
 for video in pl.videos:
     ys = video.streams.get_highest_resolution()
     ys.download()
