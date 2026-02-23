@@ -25,13 +25,20 @@ from pytubefix.cli import on_progress
 #gangnam style
 url = "https://www.youtube.com/watch?v=9bZkp7q19f0"
 
+pl = Playlist(url)
+
 yt = YouTube(url, on_progress_callback=on_progress)
 p = Playlist('https://www.youtube.com/playlist?list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n')
 # p = Playlist('https://www.youtube.com/watch?v=41qgdwd3zAg&list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n')
 print(yt.title)
 
-for url in P.video_urls[:3]:
-    print(url)
+for video in pl.videos:
+    ys = video.streams.get_highest_resolution()
+    ys.download()
+
+# Print all URLs in a playlist
+#for url in P.video_urls[:3]:
+#    print(url)
 
 ys = yt.streams.get_highest_resolution()
 ys.download()
