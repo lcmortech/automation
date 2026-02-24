@@ -1,51 +1,7 @@
-# from pytube import YouTube
-# #from sys import argv
-
-# #from docs
-# yt = YouTube('https://www.youtube.com/watch?v=9bZkp7q19f0')
-
-# print("Title:" + yt.title)
-# #get resolution
-
-# print(yt.description)
-# desc = yt.description
-# length = yt.length
-# yt.streams.get_highest_resolution()
-# #check link
-# yt.download()
-
-# # Bugs:
-# # urllib error
-# # check api (corey schafer for tips)
-
+#import modules
 from pytubefix import YouTube, Playlist
 from pytubefix.cli import on_progress
 
+url = input("Input Youtube Playlist URL")
 
-#gangnam style
-url = "https://www.youtube.com/watch?v=9bZkp7q19f0"
-
-pl = Playlist(url)
-
-yt = YouTube(url, on_progress_callback=on_progress)
-p = Playlist('https://www.youtube.com/playlist?list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n')
-# p = Playlist('https://www.youtube.com/watch?v=41qgdwd3zAg&list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n')
-print(yt.title)
-
-# dl vids in playlist
-for video in pl.videos:
-    ys = video.streams.get_highest_resolution()
-    ys.download()
-
-# Print all URLs in a playlist
-#for url in P.video_urls[:3]:
-#    print(url)
-
-ys = yt.streams.get_highest_resolution()
-ys.download()
-
-#bug
-# fix pytube cli error 
-# https://pytubefix.readthedocs.io/en/latest/
-# 2-18 success!
-# next objective - retrieve playlist (list?) - check!
+p = Playlist(url)
