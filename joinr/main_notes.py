@@ -12,3 +12,6 @@ import json
 yt_vid = Youtube(URL)
 yt_vid = yt_vid.streams.get_highest_resolution()
 yt_vid.download()
+
+#checklist
+# test playlist dl url
