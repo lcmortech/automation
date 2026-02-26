@@ -2,7 +2,7 @@
 from pytubefix import YouTube, Playlist
 from pytubefix.cli import on_progress
 
-# get URL
+# get URL (test)
 url = input("Input Youtube Playlist URL")
 
 # playlist
