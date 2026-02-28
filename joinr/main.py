@@ -12,8 +12,8 @@ pl = Playlist(url)
 
 #download playlist vid loop
 for video in pl.videos:
-    ys = video.streams.get_highest_resolution()
+    ys = video.streams.get_highest_resolution().download(output_path=download_dir)
     ys.download()
 
 #task
-#set new dl dir
+#set new dl dir ()
