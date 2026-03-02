@@ -12,7 +12,7 @@ pl = Playlist(url)
 
 #download playlist vid loop
 for video in pl.videos:
-    ys = video.streams.get_highest_resolution().download(output_path="./yt_playlist")
+    ys = video.streams.get_highest_resolution().download(output_path="/joinr/playlists")
     ys.download()
     print(f"Downloaded: {video.title}")
 
