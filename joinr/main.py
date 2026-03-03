@@ -18,4 +18,4 @@ for video in pl.videos:
 
 #task
 #set new dl dir ()
-#increase quality of vid dls (texst vid was lq)
+#increase quality of vid dls (text vid was lq)
