@@ -19,4 +19,4 @@ for video in pl.videos:
 #task
 #set new dl dir ()
 #increase quality of vid dls (text vid was lq)
-#remove vid
+#remove vid prev dled
