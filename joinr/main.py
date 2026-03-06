@@ -20,4 +20,4 @@ for video in pl.videos:
 #set new dl dir ()
 #increase quality of vid dls (text vid was lq)
 #remove vid prev dled - complete
-# adjust quality
+# adjust quality of new vid dl
