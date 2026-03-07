@@ -17,7 +17,8 @@ for video in pl.videos:
     print(f"Downloaded: {video.title}")
 
 #task
-#set new dl dir ()
+#set new dl dir ()gi
 #increase quality of vid dls (text vid was lq)
 #remove vid prev dled - complete
 # adjust quality of new vid dl - incomplete
+# exit .venv
