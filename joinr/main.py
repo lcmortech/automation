@@ -19,6 +19,8 @@ for video in pl.videos:
 # check directory
 clip = VideoFileClip("directory")
 
+#loop to merge vids
+
 #task
 #set new dl dir ()gi
 #increase quality of vid dls (text vid was lq)
