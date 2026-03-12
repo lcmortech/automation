@@ -16,7 +16,8 @@ for video in pl.videos:
     ys.download()
     print(f"Downloaded: {video.title}")
 
-clip = VideoFileClip("vid")
+# check directory
+clip = VideoFileClip("directory")
 
 #task
 #set new dl dir ()gi
