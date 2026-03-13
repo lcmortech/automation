@@ -31,3 +31,4 @@ clip = VideoFileClip("directory")
 # moviepy docs (join playlist)
 # add queue variable for clips (if queue then merge with clip at index 0 of queue - while que's index is more than 0?)
 # add gui (tkinter)
+#tkinter docs
