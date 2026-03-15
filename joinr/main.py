@@ -31,6 +31,8 @@ clip = VideoFileClip("directory")
 # moviepy docs (join playlist)
 # final_clip = concatenate_videoclips([clip1, clip2, clip3])
 # final_clip.write_videofile("newVideo.mp4", codec="libx264")
+# look into diff codecs
 # add queue variable for clips (if queue then merge with clip at index 0 of queue - while que's index is more than 0?)
 # add gui (tkinter)
 #tkinter docs
+
