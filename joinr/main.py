@@ -27,6 +27,7 @@ clip = VideoFileClip("directory")
 #remove vid prev dled - complete
 # adjust quality of new vid dl - incomplete
 # moviepy docs (join playlist)
+# deactivate (.venv)
 # final_clip = concatenate_videoclips([clip1, clip2, clip3])
 # final_clip.write_videofile("newVideo.mp4", codec="libx264")
 # look into diff codecs (might improve dl quality)
