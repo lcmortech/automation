@@ -36,3 +36,4 @@ clip = VideoFileClip("directory")
 # tkinter docs - https://docs.python.org/3/library/tkinter.html
 # add unit tests to both modules (pytest)
 # hospital stay - 3/18
+# home recovery - 3/19
