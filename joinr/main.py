@@ -38,3 +38,4 @@ clip = VideoFileClip("directory")
 # hospital stay - 3/18
 # home recovery - 3/19
 # home recovery - 3/20
+# add ffmpeg to improve dl quality
