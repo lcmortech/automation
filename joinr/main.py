@@ -40,3 +40,4 @@ clip = VideoFileClip("directory")
 # home recovery - 3/20
 # add ffmpeg to improve dl quality
 # still recovering (anemia nausea)
+# recovering still
