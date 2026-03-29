@@ -43,3 +43,4 @@ clip = VideoFileClip("directory")
 # recovering still (still nausea)
 # taking break (again)
 # still recovering 
+# sick again (cold this time)
