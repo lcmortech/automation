@@ -45,4 +45,4 @@ clip = VideoFileClip("directory")
 # still recovering 
 # sick again (a cold this time)
 # actually flu (and fever)
-# still sick
+# still sick (flu gone)
