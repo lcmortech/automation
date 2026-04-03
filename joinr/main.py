@@ -48,3 +48,4 @@ clip = VideoFileClip("directory")
 # still sick (flu gone)
 # still sick
 # research diff codecs for vids (dl quality)
+# ffmpeg vs others
