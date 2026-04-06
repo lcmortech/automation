@@ -41,7 +41,7 @@ clip = VideoFileClip("directory")
 # add ffmpeg to improve dl quality
 # still recovering (anemia nausea)
 # recovering still (still nausea)
-# taking break (again)
+# taking break (again)S
 # still recovering 
 # sick again (a cold this time)
 # actually flu (and fever)
@@ -49,3 +49,4 @@ clip = VideoFileClip("directory")
 # still sick
 # research diff codecs for vids (dl quality)
 # ffmpeg, libx264, mpeg4, libvpx, libtheora, rawvideo, png
+# easter break
