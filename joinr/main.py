@@ -49,4 +49,5 @@ clip = VideoFileClip("directory")
 # still sick
 # research diff codecs for vids (dl quality)
 # ffmpeg, libx264, mpeg4, libvpx, libtheora, rawvideo, png
-# easter break
+# easter break (sat)
+# easter break (sun)
